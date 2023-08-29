@@ -1,0 +1,74 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Tilt+Prism&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+ 
+}
+
+
+body{
+    
+    height: 100vh;
+    background: linear-gradient(120deg,#6517a5,#000000da);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.conteiner{
+    padding: 10px;
+    padding-top: 20px;
+   align-items: center;
+   justify-content: center;
+   height: 400px;
+   width: 800px;
+   background: transparent;
+   border-radius: 5px;
+ 
+}
+
+h2{
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+}
+
+li{
+    color:aliceblue;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+h4{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color:  rgb(168, 143, 192);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(164, 140, 185);
+    color: white;
+  }
